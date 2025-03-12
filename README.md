@@ -1,9 +1,10 @@
 # WinSrv-Centos-Fix
-Since June30, 2024 Centos 7 has been EOL or "end of life". For this reason, and for reasons of corporate laziness, all of the Centos Yum package mirrors have been moved to different servers, hosted by kind hackers, and not Red Hat. Below are modifications addressing this issue for the inctructions at [redhat.com](https://www.redhat.com/sysadmin/linux-active-directory).
+Since June 30, 2024 Centos 7 has been EOL or "end of life". For this reason, and for reasons of corporate laziness, all of the Centos Yum package mirrors have been moved to different servers, hosted by kind hackers, and not Red Hat. Below are modifications addressing this issue for the inctructions at [redhat.com](https://www.redhat.com/sysadmin/linux-active-directory).
 
 ## Before "Packages to install" section (Run in Linux terminal):
 
 ```sudo nano /etc/yum.repos.d/CentOS-Vault.repo```  To open an editor
+(Or, if you do not have nano installed / do not want to use nano, replace 'nano' with 'vi'. Beware that vi has unintuitive keybinds.
 
 Type your root (administrator) password to successfuly execute the above sudo command
 
