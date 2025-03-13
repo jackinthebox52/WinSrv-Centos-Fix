@@ -41,7 +41,8 @@ sudo yum update
 ```
 
 Note: If using the exact Centos 7 version that Professor Lampe specified, the above source specification is the correct config. Otherwise you can check the version you've installed and adjust the version numbers accordingly with any of the following commands. (Do not confuse Linux kernel version with Centos version):
-````cat /etc/*elease````
+```cat /etc/*elease```
+or
 ```hostnamectl```
 
 Congratulations, you have just removed and added a repository source to your Linux package manager. Modifying and adding sources is a common task for intermediate-level linux tasks, especially for distros like Debian/Ubuntu or Centos/RHEL. Learning how package managers work is a vital part of your Linux journey. 
