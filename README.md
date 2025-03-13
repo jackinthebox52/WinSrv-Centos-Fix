@@ -48,10 +48,10 @@ or
 Congratulations, you have just removed and added a repository source to your Linux package manager. Modifying and adding sources is a common task for intermediate-level Linux tasks, especially for distros like Debian/Ubuntu or Centos/RHEL. Learning how package managers work is a vital part of your Linux journey. 
 
 ## Alternative method:
-Centos is a Linux distro that has been discontinued by RedHat. It is always wise to avoid old Linux distros that have dropped support, for security reasons as well as package update reasons (you probably want new versions of most programs). Centos Stream is the new distro which serves as the upstream of RHEL. I chose to go the Centos 10 method to complete my midterm projec; Centos Stream 10 to be exact. There is not much different about using the updated centos. Some cli tools may be a bit different, but off the top of my head, I can't think of an example.
+Centos is a Linux distro that has been discontinued by RedHat. It is always wise to avoid old Linux distros that have dropped support, for security reasons as well as package update reasons (you probably want new versions of most programs). Centos Stream is the new distro which serves as the upstream of RHEL. I chose to go the Centos 10 method to complete my midterm project; Centos Stream 10 to be exact. There is not much different about using the updated Centos. Some cli tools may be a bit different, but off the top of my head, I can't think of an example.
 
 Package names:
-If you go the Centos stream route, and are using the instructions provided in the redhat.com link above and in the midterm .docx file, there is a single package name you must modify during the yum install portion.
+If you go the Centos stream route, and are using the instructions provided in the redhat.com link above and in the midterm .docx file, there is a single package name you must modify during the Yum install portion.
 The package ```policycoreutils-python``` has changed to ```policycoreutils-python-utils```.
 The new install command would be:
 ```yum install sssd realmd oddjob oddjob-mkhomedir adcli samba-common samba-common-tools krb5-workstation openldap-clients policycoreutils-python```
