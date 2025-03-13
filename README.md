@@ -1,5 +1,5 @@
 # WinSrv-Centos-Fix
-Since June 30, 2024 Centos 7 has been EOL or "end of life". For this reason, and for reasons of corporate laziness, all of the Centos Yum package mirrors have been moved to different servers, hosted by kind hackers, and not Red Hat. Below are modifications addressing this issue for the inctructions at [redhat.com](https://www.redhat.com/sysadmin/linux-active-directory).
+Since June 30, 2024 Centos 7 has been EOL or "end of life". For this reason, and for reasons of corporate laziness, all of the Centos Yum package mirrors have been moved to different servers. Below are modifications addressing this issue for the inctructions at [redhat.com](https://www.redhat.com/sysadmin/linux-active-directory).
 
 If you are not enrolled in the Admin Windows Server Class at Kirkwood, this repo may not be right for you.
 
