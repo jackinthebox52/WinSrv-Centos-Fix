@@ -1,6 +1,6 @@
 # WinSrv-Centos-Fix
 
-## Clarification: To complete your Windows Server midterm, one of the below fixes is required. You WILL NOT be able to complete it without implementing one of the following fixes. This is not due to Professor Lamp but the fault of RedHat. There are alternatives to these 2 methods, but they are much more annoying. Good luck to all.
+## Clarification: To complete your Windows Server midterm, one of the below fixes is required. You WILL NOT be able to complete it without implementing one of the following fixes. There are alternatives to these 2 methods, but they are much more annoying. Good luck to all.
 
 Since June 30, 2024 Centos 7 has been EOL or "end of life". For this reason, and for reasons of corporate laziness, all of the Centos Yum package mirrors have been moved to different servers. Below are modifications addressing this issue for the inctructions at [redhat.com](https://www.redhat.com/sysadmin/Linux-active-directory).
 
