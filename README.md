@@ -2,7 +2,7 @@
 
 ## Clarification: To complete your Windows Server midterm, one of the below fixes is required. You WILL NOT be able to complete it without implementing one of the following fixes. There are alternatives to these 2 methods, but they are much more annoying. Good luck to all.
 
-Since June 30, 2024 Centos 7 has been EOL or "end of life". For this reason, and for reasons of corporate laziness, all of the Centos Yum package mirrors have been moved to different servers. Below are modifications addressing this issue for the inctructions at [redhat.com](https://www.redhat.com/sysadmin/Linux-active-directory).
+Since June 30, 2024 Centos 7 has been EOL or "end of life". For this reason all of the Centos Yum package mirrors have been moved to different servers. Below are modifications addressing this issue for the inctructions at [redhat.com](https://www.redhat.com/sysadmin/Linux-active-directory).
 
 If you are not enrolled in the Admin Windows Server Class at Kirkwood, this repo may not be right for you.
 
